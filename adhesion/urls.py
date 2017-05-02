@@ -22,3 +22,4 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^students/', include('membresva.urls')),
 ]
+#alors on arretyer de merde goit ? 
