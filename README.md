@@ -1,49 +1,41 @@
-
-     ,-----.,--.                  ,--. ,---.   ,--.,------.  ,------.
-    '  .--./|  | ,---. ,--.,--. ,-|  || o   \  |  ||  .-.  \ |  .---'
-    |  |    |  || .-. ||  ||  |' .-. |`..'  |  |  ||  |  \  :|  `--, 
-    '  '--'\|  |' '-' ''  ''  '\ `-' | .'  /   |  ||  '--'  /|  `---.
-     `-----'`--' `---'  `----'  `---'  `--'    `--'`-------' `------'
-    ----------------------------------------------------------------- 
+[![Licence GPL](http://img.shields.io/badge/license-GPL-green.svg)](http://www.gnu.org/licenses/quick-guide-gplv3.fr.html)
 
 
-Welcome to your Django project on Cloud9 IDE!
+# Adhesion
 
-Your Django project is already fully setup. Just click the "Run" button to start
-the application. On first run you will be asked to create an admin user. You can
-access your application from 'https://adhesion-hugnata.c9users.io/' and the admin page from 
-'https://adhesion-hugnata.c9users.io/admin'.
+Adhesion is a web application that helps BdEINSALyon's organizations
+to properly manage their members.
 
-## Starting from the Terminal
+This application can be forked to be tuned or improved.
 
-In case you want to run your Django application from the terminal just run:
 
-1) Run syncdb command to sync models to database and create Django's default superuser and auth system
+## Contributions
 
-    $ python manage.py migrate
+After checking [Github Issues](https://github.com/BdEINSALyon/adhesion),
+feel free to contribute by sending your pull requests.
+While we may not merge your PR as is, they serve to start conversations 
+and improve the general adhesion experience for all users.
 
-2) Run Django
+## Licence
 
-    $ python manage.py runserver $IP:$PORT
-    
-## Configuration
+[![GNU GPL v3.0](http://www.gnu.org/graphics/gplv3-127x51.png)](http://www.gnu.org/licenses/gpl.html)
 
-You can configure your Python version and `PYTHONPATH` used in
-Cloud9 > Preferences > Project Settings > Language Support.
+```
+Adhesion - App for organisation's members organisation 
+Copyright (C) 2016 Alban PRATS
+Copyright (C) 2017 Hugo REYMOND
+Copyright (C) 2017 BdE INSA Lyon
 
-## Support & Documentation
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
 
-Django docs can be found at https://www.djangoproject.com/
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
-You may also want to follow the Django tutorial to create your first application:
-https://docs.djangoproject.com/en/1.9/intro/tutorial01/
-
-Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE.
-To watch some training videos, visit http://www.youtube.com/user/c9ide
-et bite
-xd,keizahddkizapodjo
-
-djaz
-azjdoijazd
-joazdj
-azjzoiajdi*daz
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+```
