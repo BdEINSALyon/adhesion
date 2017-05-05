@@ -11,7 +11,8 @@ from django.shortcuts import render
 
 # Create your views here.
 def students(request):
-    
+
+    return render(request,"index.html")
     raise Http404("Aucun étudiant trouvé !!")
     
 def showstudent(request,pk):

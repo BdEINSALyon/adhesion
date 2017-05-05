@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Adhésion</title>
+    <link rel="stylesheet" href="{% static "css/bootstrap.css" %}">
+</head>
+<body>
+    <div class="container text-center">
+        <h1>Rechercher des élèves: </h1>
+        <form class="form input-group">
+            <input class="form-control" type="text">
+            <div class="input-group-btn">
+                <button class =" btn btn-default">
+                 <div class="glyphicon glyphicon-search "></div>
+                </button>
+            </div>
+
+
+        </form>
+        <table class="table col-lg-8 col-md-6">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nom</th>
+                    <th>Prénom</th>
+                    <th>Année</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>0</th>
+                    <th>Foucault</th>
+                    <th>Brigliador </th>
+                    <th>1</th>
+                </tr>
+                <tr>
+                    <th>1</th>
+                    <th>Chastain</th>
+                    <th>Dexter  </th>
+                    <th>1</th>
+                </tr>
+                 <tr>
+                    <th>2</th>
+                    <th>Lafond</th>
+                    <th>Christian</th>
+                    <th>1</th>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
