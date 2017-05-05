@@ -18,3 +18,6 @@ def students(request):
 def showstudent(request,pk):
     
     raise Http404("Aucun étudiant trouvé !")
+
+def registerStudent(request):
+    return render(request,"registerstudent.html")

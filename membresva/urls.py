@@ -4,6 +4,7 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.students),
+    url(r'^register', views.registerStudent),
 ]
 
 """from django.conf.urls import url
