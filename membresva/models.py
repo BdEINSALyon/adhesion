@@ -4,26 +4,38 @@ Modèle du membre VA
 from django.db import models
 
 class Membre(models):
-    nom =  models.CharField(max_length=70)
-    prenom = models.CharField(max_length=70)
-    homme = models.BooleanField()
-    datenaissance = models.DateField()
-    tel = models.IntegerField()
-    infos = models.TextField()
-    mail = models.Charfield(max_length=200)
-    dept = models.ForeignKey('Depart')
-    annee = models.IntegerField()
+    
+    NOM =  models.CharField(max_length=70)
+    PRENOM = models.CharField(max_length=70)
+    HOMME = models.BooleanField()
+    DATENAISSANCE = models.DateField()
+    TEL = models.IntegerField()
+    DONNEES MEDICALES = models.TextField()
+    INFOS = models.TextField()
+    MAIL = models.Charfield(max_length=200)
+    DEPT = models.ForeignKey('Depart')
+    ANNEE = models.ForeignKey('Annee')
+    #L'ID de la carte VA de l'étudiant
     IDVA = models.IntegerField()
+    #L'ID de la carte étudiant 
     IDETU = models.IntegerField()
-    estmembre = models.BooleanField()
-    adhesions = models.CharField(max_length=300)
 
     def __str__(self):
         return self.nom + "  " + self.prenom
 
 
 class Depart(models):
-    nom = models.CharField(max_length=100)
+    NOM = models.CharField(max_length=100)
+    ABBREVIATION = models.CharField(max_lenght=6)
+    ACTIF = models.BooleanField()
+
+    def __str__(self):
+        return self.nom
+
+class Annee(models):
+    NOM = models.CharField(max_length=100)
+    ORDRE = models.IntegerField()
+    ACTIF = models.BooleanField()
 
     def __str__(self):
         return self.nom
